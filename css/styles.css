@@ -1,0 +1,199 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 800;
+    color: white;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+}
+.nav-item{
+    padding: 0px 18px;
+}
+.navbar{
+    padding: 8px 0px;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.navbar-collapse{
+    text-align: center;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.after-nav{
+    padding-top: 4.5rem;
+}
+.iphone-img{
+    transform: rotate(20deg);
+    width: 80%;
+}
+.right-col{
+    padding-left: 160px;
+}
+.download-buttons{
+    margin: 10% 3% 5% 0%;
+}
+#title{
+    background-color: #ff4c68;
+    height:47rem;
+    position: relative;
+}
+@media screen and (max-width: 992px){
+    #title{
+        z-index: 0;
+        height: 1200px;
+        text-align: center;
+    }
+    .right-col{
+        position: static;
+        padding: 10%;
+        padding-right: 20%;
+        margin: 0% -15%;
+        width: 100%;
+    }
+    .iphone-img{
+        position: absolute;
+        transform: rotate(25deg);
+        width: 300px;
+        right: 35%;
+        bottom: -20%;
+    }
+}
+#features{
+    background-color: white;
+    text-align: center;
+    position: relative;
+}
+@media screen and (max-width: 750px) {
+    #features{
+        padding-top: 10%;
+        position: relative;
+    }
+}
+@media screen and (max-width: 992px) {
+    #features{
+        padding-top: 5%;
+    }
+}
+h3{
+    font-weight: 500;
+}
+p{
+    color: #8f8f8f;
+}
+.feature-row{
+    padding: 0% 10%;
+    margin-left: 0%;
+    margin-right: 0%
+}
+.feature-column{
+    padding: 10% 5%;
+}
+.feature-icons{
+    font-size: 5rem;
+    color: #ff6b81;
+    padding-bottom: 1rem;
+}
+.feature-icons:hover{
+    color: #ff4460;
+}
+#testimonials{
+    background-color: #ff6b81;
+    text-align: center;
+    color: white;
+}
+h2{
+    font-weight: 500;
+}
+.testimonial-image{
+    border-radius: 100%;
+    width: 15rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem 0rem;
+}
+#press{
+    background-color: #ff6b81;
+    padding: 1% 5% 3%;
+    text-align: center;
+    /* display: none; */
+}
+.press-images{
+    width: 12%;
+    padding-right: 1rem;
+}
+.carousel{
+    background-color: #ff6b81;
+}
+.carousel-item{
+    padding: 5% 15% 7%;
+}
+.indicators{
+    top: 520px;
+}
+.card-deck{
+    margin: 0px;
+}
+.cost{
+    font-weight: 400;
+}
+.to-margin{
+    margin-top: 57px;
+}
+.card{
+    margin: 5%;
+}
+.card-row{
+    width: 100%;
+    margin: 0px;
+}
+.plan-name{
+    margin: 0%;
+}
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+.pricing-column{
+    padding: 3%;
+}
+@media screen and (max-width:992px) {
+    #pricing{
+        padding: 10%;
+    }
+}
+#cta{
+    padding: 5% 10%;
+    text-align: center;
+    background-color: #ff6b81;
+    color: white;
+}
+.cta-download{
+    margin-right: 50px;
+}
+@media screen and (max-width:500px) {
+    .cta-download{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:992px) {
+    #cta{
+        padding: 15% 10%;
+    }
+}
+#footer{
+    text-align: center;
+    padding: 50px 10%;
+}
