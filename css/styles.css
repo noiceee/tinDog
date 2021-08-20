@@ -80,6 +80,9 @@ h1{
         padding-left: 5%;
         padding-right: 5%;
     }
+    .to-hide{
+        display: none;
+    }
 }
 #features{
     background-color: white;
