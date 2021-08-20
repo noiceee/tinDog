@@ -1,6 +1,9 @@
-body{
+html, body{
     font-family: 'Montserrat', sans-serif;
     height: 100%;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 h1{
     font-family: 'Montserrat', sans-serif;
@@ -49,14 +52,14 @@ h1{
 @media screen and (max-width: 992px){
     #title{
         z-index: 0;
-        height: 1200px;
+        height: 1100px;
         text-align: center;
     }
     .right-col{
         position: static;
         padding: 10%;
         padding-right: 20%;
-        margin: 0% -15%;
+        margin: 0% ;
         width: 100%;
     }
     .iphone-img{
@@ -65,6 +68,17 @@ h1{
         width: 300px;
         right: 35%;
         bottom: -20%;
+    }
+    .after-nav{
+        padding-top: 10px;
+    }
+    h1{
+        font-size: 3rem;
+        font-weight: 600;
+    }
+    .container-fluid{
+        padding-left: 5%;
+        padding-right: 5%;
     }
 }
 #features{
@@ -78,11 +92,6 @@ h1{
         position: relative;
     }
 }
-@media screen and (max-width: 992px) {
-    #features{
-        padding-top: 5%;
-    }
-}
 h3{
     font-weight: 500;
 }
@@ -92,7 +101,15 @@ p{
 .feature-row{
     padding: 0% 10%;
     margin-left: 0%;
-    margin-right: 0%
+    margin-right: 0%;
+}
+@media screen and (max-width: 992px) {
+    #features{
+        padding-top: 5%;
+    }
+    .feature-row{
+        padding-top: 30px;
+    }
 }
 .feature-column{
     padding: 10% 5%;
